@@ -18,7 +18,7 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pkg/errors"
-	"github.com/tikv/client-go/config"
+	"github.com/yiyanwannian/client-go/config"
 )
 
 var _ = Suite(&testUnionStoreSuite{})

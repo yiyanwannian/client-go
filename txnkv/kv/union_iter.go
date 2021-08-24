@@ -17,7 +17,7 @@ import (
 	"context"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/tikv/client-go/key"
+	"github.com/yiyanwannian/client-go/key"
 )
 
 // UnionIter is the iterator on an UnionStore.

@@ -19,8 +19,8 @@ import (
 	"time"
 
 	. "github.com/pingcap/check"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/txnkv/oracle"
+	"github.com/yiyanwannian/client-go/config"
+	"github.com/yiyanwannian/client-go/txnkv/oracle"
 )
 
 func TestT(t *testing.T) {

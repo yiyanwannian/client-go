@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/metrics"
-	"github.com/tikv/client-go/rawkv"
-	"github.com/tikv/client-go/txnkv"
+	"github.com/yiyanwannian/client-go/config"
+	"github.com/yiyanwannian/client-go/metrics"
+	"github.com/yiyanwannian/client-go/rawkv"
+	"github.com/yiyanwannian/client-go/txnkv"
 )
 
 var (

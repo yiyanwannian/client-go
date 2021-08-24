@@ -16,7 +16,7 @@ package kv
 import (
 	"context"
 
-	"github.com/tikv/client-go/key"
+	"github.com/yiyanwannian/client-go/key"
 )
 
 type mockSnapshot struct {

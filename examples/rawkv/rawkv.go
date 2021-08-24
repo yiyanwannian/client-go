@@ -17,8 +17,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/rawkv"
+	"github.com/yiyanwannian/client-go/config"
+	"github.com/yiyanwannian/client-go/rawkv"
 )
 
 func main() {

@@ -16,7 +16,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/tikv/client-go/proxy/httpproxy"
+	"github.com/yiyanwannian/client-go/proxy/httpproxy"
 )
 
 func main() {

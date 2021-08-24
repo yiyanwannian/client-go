@@ -25,10 +25,10 @@ import (
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/tikv/client-go/codec"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/metrics"
-	"github.com/tikv/client-go/retry"
+	"github.com/yiyanwannian/client-go/codec"
+	"github.com/yiyanwannian/client-go/config"
+	"github.com/yiyanwannian/client-go/metrics"
+	"github.com/yiyanwannian/client-go/retry"
 	pd "github.com/tikv/pd/client"
 )
 

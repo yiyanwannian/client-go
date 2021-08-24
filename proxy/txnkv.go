@@ -19,10 +19,10 @@ import (
 	"unsafe"
 
 	"github.com/pkg/errors"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/key"
-	"github.com/tikv/client-go/txnkv"
-	"github.com/tikv/client-go/txnkv/kv"
+	"github.com/yiyanwannian/client-go/config"
+	"github.com/yiyanwannian/client-go/key"
+	"github.com/yiyanwannian/client-go/txnkv"
+	"github.com/yiyanwannian/client-go/txnkv/kv"
 )
 
 // TxnKVProxy implements proxy to use txnkv API.

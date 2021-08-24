@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/proxy"
+	"github.com/yiyanwannian/client-go/config"
+	"github.com/yiyanwannian/client-go/proxy"
 )
 
 type HandlerWithConfig struct {

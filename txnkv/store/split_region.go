@@ -20,9 +20,9 @@ import (
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/tikv/client-go/key"
-	"github.com/tikv/client-go/retry"
-	"github.com/tikv/client-go/rpc"
+	"github.com/yiyanwannian/client-go/key"
+	"github.com/yiyanwannian/client-go/retry"
+	"github.com/yiyanwannian/client-go/rpc"
 )
 
 // SplitRegion splits the region contains splitKey into 2 regions: [start,

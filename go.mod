@@ -1,4 +1,4 @@
-module github.com/tikv/client-go
+module github.com/yiyanwannian/client-go
 
 go 1.15
 

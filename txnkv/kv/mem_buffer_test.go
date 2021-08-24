@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/tikv/client-go/config"
+	"github.com/yiyanwannian/client-go/config"
 )
 
 const (
