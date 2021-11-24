@@ -200,7 +200,7 @@ func (a *connArray) Init(addr string) error {
 			grpc.WithInitialWindowSize(int32(a.conf.GrpcInitialWindowSize)),
 			grpc.WithInitialConnWindowSize(int32(a.conf.GrpcInitialConnWindowSize)),
 			grpc.WithUnaryInterceptor(unaryInterceptor),
-			grpc.WithStreamInterceptor(streamInterceptor),
+			//grpc.WithStreamInterceptor(streamInterceptor),
 			grpc.WithDefaultCallOptions(grpc.MaxCallRecvMsgSize(a.conf.GrpcMaxCallMsgSize)),
 			grpc.WithDefaultCallOptions(grpc.MaxCallSendMsgSize(a.conf.GrpcMaxSendMsgSize)),
 			grpc.WithBackoffMaxDelay(time.Second*3),
