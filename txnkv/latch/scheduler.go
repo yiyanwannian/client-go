@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/txnkv/oracle"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv/oracle"
 )
 
 // LatchesScheduler is used to schedule latches for transactions.

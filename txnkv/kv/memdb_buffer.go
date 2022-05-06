@@ -19,14 +19,14 @@ import (
 	"context"
 	"fmt"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
 	"github.com/pingcap/goleveldb/leveldb"
 	"github.com/pingcap/goleveldb/leveldb/comparer"
 	"github.com/pingcap/goleveldb/leveldb/iterator"
 	"github.com/pingcap/goleveldb/leveldb/memdb"
 	"github.com/pingcap/goleveldb/leveldb/util"
 	"github.com/pkg/errors"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/key"
 )
 
 // memDbBuffer implements the MemBuffer interface.

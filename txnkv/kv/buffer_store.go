@@ -16,8 +16,8 @@ package kv
 import (
 	"context"
 
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/key"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
 )
 
 // BufferStore wraps a Retriever for read and a MemBuffer for buffered write.

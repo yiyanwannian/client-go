@@ -17,14 +17,14 @@ import (
 	"bytes"
 	"context"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/retry"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/rpc"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv/kv"
 	pb "github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/key"
-	"github.com/yiyanwannian/client-go/retry"
-	"github.com/yiyanwannian/client-go/rpc"
-	"github.com/yiyanwannian/client-go/txnkv/kv"
 )
 
 // Scanner support tikv scan

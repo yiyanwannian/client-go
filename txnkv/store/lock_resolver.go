@@ -19,14 +19,14 @@ import (
 	"sync"
 	"time"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/locate"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/metrics"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/retry"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/rpc"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/locate"
-	"github.com/yiyanwannian/client-go/metrics"
-	"github.com/yiyanwannian/client-go/retry"
-	"github.com/yiyanwannian/client-go/rpc"
 )
 
 // LockResolver resolves locks and also caches resolved txn status.

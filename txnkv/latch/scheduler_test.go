@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
 	. "github.com/pingcap/check"
-	"github.com/yiyanwannian/client-go/config"
 )
 
 var _ = Suite(&testSchedulerSuite{})

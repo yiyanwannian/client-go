@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yiyanwannian/client-go/txnkv/oracle"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv/oracle"
 )
 
 var _ oracle.Oracle = &localOracle{}

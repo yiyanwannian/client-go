@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"time"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/metrics"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv/kv"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv/store"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/log"
-	"github.com/yiyanwannian/client-go/key"
-	"github.com/yiyanwannian/client-go/metrics"
-	"github.com/yiyanwannian/client-go/txnkv/kv"
-	"github.com/yiyanwannian/client-go/txnkv/store"
 )
 
 // Transaction is a key-value transaction.

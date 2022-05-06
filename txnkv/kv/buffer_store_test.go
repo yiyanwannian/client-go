@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"testing"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
 	. "github.com/pingcap/check"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/key"
 )
 
 func TestT(t *testing.T) {

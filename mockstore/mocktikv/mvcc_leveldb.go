@@ -18,6 +18,7 @@ import (
 	"math"
 	"sync"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/codec"
 	"github.com/pingcap/goleveldb/leveldb"
 	"github.com/pingcap/goleveldb/leveldb/iterator"
 	"github.com/pingcap/goleveldb/leveldb/opt"
@@ -26,7 +27,6 @@ import (
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/yiyanwannian/client-go/codec"
 )
 
 // MVCCLevelDB implements the MVCCStore interface.

@@ -19,9 +19,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/proxy"
 	"github.com/gorilla/mux"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/proxy"
 )
 
 type txnkvHandler struct {

@@ -16,8 +16,8 @@ package store
 import (
 	"fmt"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
 	"github.com/pkg/errors"
-	"github.com/yiyanwannian/client-go/key"
 )
 
 // TxnRetryableMark is used to direct user to restart a transaction.

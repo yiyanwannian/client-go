@@ -19,10 +19,10 @@ import (
 	"math"
 	"sync"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/codec"
 	"github.com/golang/protobuf/proto"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/yiyanwannian/client-go/codec"
 )
 
 // Cluster simulates a TiKV cluster. It focuses on management and the change of

@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/metrics"
-	"github.com/yiyanwannian/client-go/rawkv"
-	"github.com/yiyanwannian/client-go/txnkv"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/metrics"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/rawkv"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv"
 )
 
 var (

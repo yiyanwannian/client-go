@@ -20,15 +20,15 @@ import (
 	"sync/atomic"
 	"time"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/codec"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/metrics"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/retry"
 	"github.com/google/btree"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/yiyanwannian/client-go/codec"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/metrics"
-	"github.com/yiyanwannian/client-go/retry"
 	pd "github.com/tikv/pd/client"
 )
 

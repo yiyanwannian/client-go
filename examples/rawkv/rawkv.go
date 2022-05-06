@@ -17,8 +17,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/rawkv"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/rawkv"
 )
 
 func main() {

@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/key"
-	"github.com/yiyanwannian/client-go/txnkv"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv"
 )
 
 // KV represents a Key-Value pair.

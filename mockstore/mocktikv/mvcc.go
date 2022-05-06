@@ -20,10 +20,10 @@ import (
 	"math"
 	"sort"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/codec"
 	"github.com/google/btree"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
-	"github.com/yiyanwannian/client-go/codec"
 )
 
 type mvccValueType int

@@ -18,11 +18,11 @@ import (
 	"sync"
 	"unsafe"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv/kv"
 	"github.com/pkg/errors"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/key"
-	"github.com/yiyanwannian/client-go/txnkv"
-	"github.com/yiyanwannian/client-go/txnkv/kv"
 )
 
 // TxnKVProxy implements proxy to use txnkv API.

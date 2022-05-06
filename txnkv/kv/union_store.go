@@ -16,8 +16,8 @@ package kv
 import (
 	"context"
 
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/key"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
 )
 
 // UnionStore is a store that wraps a snapshot for read and a BufferStore for buffered write.

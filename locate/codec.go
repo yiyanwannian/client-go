@@ -16,7 +16,7 @@ package locate
 import (
 	"context"
 
-	"github.com/yiyanwannian/client-go/codec"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/codec"
 	pd "github.com/tikv/pd/client"
 )
 

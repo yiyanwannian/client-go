@@ -13,7 +13,7 @@
 
 package store
 
-import "github.com/yiyanwannian/client-go/locate"
+import "chainmaker.org/chainmaker/third_party/tikv-client-go/locate"
 
 // batchKeys is a batch of keys in the same region.
 type batchKeys struct {

@@ -1,4 +1,4 @@
-module github.com/yiyanwannian/client-go
+module chainmaker.org/chainmaker/third_party/tikv-client-go
 
 go 1.15
 

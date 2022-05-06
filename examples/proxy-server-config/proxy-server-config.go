@@ -16,11 +16,11 @@ package main
 import (
 	"net/http"
 
-	"github.com/yiyanwannian/client-go/proxy/httpproxy"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/proxy/httpproxy"
 )
 
 func main() {
-	h :=  httpproxy.NewHTTPProxyHandlerWithConfig()
+	h := httpproxy.NewHTTPProxyHandlerWithConfig()
 	h.Config.RPC.EnableOpenTracing = true
 	http.ListenAndServe(":8080", httpproxy.NewHTTPProxyHandlerWithConfig())
 }

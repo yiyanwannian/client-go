@@ -16,8 +16,8 @@ package kv
 import (
 	"context"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
 	log "github.com/sirupsen/logrus"
-	"github.com/yiyanwannian/client-go/key"
 )
 
 // UnionIter is the iterator on an UnionStore.

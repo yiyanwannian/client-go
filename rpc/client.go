@@ -21,6 +21,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/metrics"
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
@@ -28,8 +30,6 @@ import (
 	"github.com/pingcap/kvproto/pkg/tikvpb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/metrics"
 	"google.golang.org/grpc"
 	gcodes "google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"

@@ -16,7 +16,7 @@ package kv
 import (
 	"context"
 
-	"github.com/yiyanwannian/client-go/key"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/key"
 )
 
 type mockSnapshot struct {

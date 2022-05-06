@@ -16,9 +16,9 @@ package txnkv
 import (
 	"context"
 
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/retry"
-	"github.com/yiyanwannian/client-go/txnkv/store"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/retry"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv/store"
 )
 
 // Client is a transactional client of TiKV server.

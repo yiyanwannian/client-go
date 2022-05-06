@@ -18,10 +18,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/metrics"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/txnkv/oracle"
 	log "github.com/sirupsen/logrus"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/metrics"
-	"github.com/yiyanwannian/client-go/txnkv/oracle"
 	pd "github.com/tikv/pd/client"
 )
 

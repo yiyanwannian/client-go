@@ -20,9 +20,9 @@ import (
 	"math/rand"
 	"time"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/metrics"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/yiyanwannian/client-go/metrics"
 )
 
 const (

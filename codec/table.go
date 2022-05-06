@@ -13,7 +13,7 @@
 
 package codec
 
-import "github.com/yiyanwannian/client-go/key"
+import "chainmaker.org/chainmaker/third_party/tikv-client-go/key"
 
 var (
 	tablePrefix     = []byte{'t'}

@@ -17,10 +17,10 @@ import (
 	"bytes"
 	"context"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/retry"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/rpc"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
-	"github.com/yiyanwannian/client-go/retry"
-	"github.com/yiyanwannian/client-go/rpc"
 )
 
 // DeleteRangeTask is used to delete all keys in a range. After

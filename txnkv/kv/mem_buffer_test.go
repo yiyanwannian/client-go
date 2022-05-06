@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
 	. "github.com/pingcap/check"
-	"github.com/yiyanwannian/client-go/config"
 )
 
 const (

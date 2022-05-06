@@ -17,9 +17,9 @@ import (
 	"context"
 	"sync"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/rawkv"
 	"github.com/pkg/errors"
-	"github.com/yiyanwannian/client-go/config"
-	"github.com/yiyanwannian/client-go/rawkv"
 )
 
 // RawKVProxy implements proxy to use rawkv API.

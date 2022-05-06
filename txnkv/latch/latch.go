@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/config"
 	log "github.com/sirupsen/logrus"
 	"github.com/spaolacci/murmur3"
-	"github.com/yiyanwannian/client-go/config"
 )
 
 type node struct {

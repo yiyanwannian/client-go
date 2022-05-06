@@ -17,12 +17,12 @@ import (
 	"context"
 	"time"
 
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/locate"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/metrics"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/retry"
 	"github.com/pingcap/kvproto/pkg/errorpb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/yiyanwannian/client-go/locate"
-	"github.com/yiyanwannian/client-go/metrics"
-	"github.com/yiyanwannian/client-go/retry"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

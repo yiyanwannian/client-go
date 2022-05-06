@@ -16,7 +16,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/yiyanwannian/client-go/proxy/httpproxy"
+	"chainmaker.org/chainmaker/third_party/tikv-client-go/proxy/httpproxy"
 )
 
 func main() {
